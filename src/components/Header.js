@@ -1,5 +1,6 @@
 
 import MyButton from './Button';
+import logo from './logo.png'
 
 
 export default function Header() {
@@ -10,11 +11,12 @@ export default function Header() {
     return (
         <div className="header">
             <div className="logo">
+                <img src={logo} alt='img'/>
             </div>
             <div className="navbar">
-                <MyButton text={buttontext1}/>
-                <MyButton text={buttontext2}/>      
-                <MyButton text={buttontext3}/>
+                <MyButton text={buttontext1} />
+                <MyButton text={buttontext2} />
+                <MyButton text={buttontext3} />
             </div>
         </div>
     )

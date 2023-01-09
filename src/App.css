@@ -1,5 +1,5 @@
 body {
-  background-color: #313846;
+  background-color: #606C38;
   color: #F1F2F3;
 }
 
@@ -26,7 +26,7 @@ button {
 
 .header {
   min-height: 50px;
-  background-color: #242526;
+  background-color: #283618;
   display: flex;
   align-items: center;
   justify-content: space-between;
