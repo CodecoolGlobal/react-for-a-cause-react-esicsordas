@@ -6,7 +6,7 @@ import Home from './Home'
 export default function Header() {
     return (
         <div className="header">
-            <div className="logo">
+            <div className="logbgkjbbjkbjo">
             </div>
             <div className="navbar">
                 <button onClick={Home}>Home</button>
@@ -14,5 +14,6 @@ export default function Header() {
                 <button onClick={Contact}>Contact</button>
             </div>
         </div>
+        
     )
 }
