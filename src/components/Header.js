@@ -6,7 +6,7 @@ import Home from './Home'
 export default function Header() {
     return (
         <div className="header">
-            <div className="logbgkjbbjkbjo">
+            <div className="logo">
             </div>
             <div className="navbar">
                 <button onClick={Home}>Home</button>
