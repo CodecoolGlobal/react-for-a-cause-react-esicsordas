@@ -14,5 +14,6 @@ export default function Header() {
                 <button onClick={Contact}>Contact</button>
             </div>
         </div>
+        
     )
 }
