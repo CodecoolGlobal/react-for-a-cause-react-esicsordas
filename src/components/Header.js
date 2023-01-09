@@ -1,4 +1,6 @@
 import About from './About'
+import Contact from './Contact'
+import Home from './Home'
 
 
 export default function Header() {
@@ -7,9 +9,9 @@ export default function Header() {
             <div className="logo">
             </div>
             <div className="navbar">
-                <div>Home</div>
+                <button onClick={Home}>Home</button>
                 <button onClick={About}>About</button>
-                <a href="./Contact.js">Contact</a>
+                <button onClick={Contact}>Contact</button>
             </div>
         </div>
     )
