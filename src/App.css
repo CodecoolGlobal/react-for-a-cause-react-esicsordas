@@ -3,6 +3,10 @@ body {
   color: #F1F2F3;
 }
 
+
+button {
+  font-size: 15px;
+}
 /*CSS for Footer*/
 
 .footer {

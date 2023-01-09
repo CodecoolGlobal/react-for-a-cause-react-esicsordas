@@ -1,19 +1,21 @@
-import About from './About'
-import Contact from './Contact'
-import Home from './Home'
+
+import MyButton from './Button';
 
 
 export default function Header() {
+
+    const buttontext1 = "Rólunk";
+    const buttontext2 = "Főoldal";
+    const buttontext3 = "Kapcsolat";
     return (
         <div className="header">
-            <div className="logbgkjbbjkbjo">
+            <div className="logo">
             </div>
             <div className="navbar">
-                <button onClick={Home}>Home</button>
-                <button onClick={About}>About</button>
-                <button onClick={Contact}>Contact</button>
+                <MyButton text={buttontext1}/>
+                <MyButton text={buttontext2}/>      
+                <MyButton text={buttontext3}/>
             </div>
         </div>
-        
     )
 }
