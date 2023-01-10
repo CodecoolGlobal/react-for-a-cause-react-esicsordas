@@ -1,19 +1,74 @@
+import { useState } from "react";
+
 export default function Contact() {
-  const clickContact = () => {
-    
+
+  const [contactInfo, setContactInfo] = useState({
+    lastname: "", 
+    firstname: "", 
+    subject: "",
+    email: "",
+    message: ""
+  });
+
+  const handleChange = (event) => {
+    setContactInfo({ ...contactInfo, [event.target.name]: event.target.value });
   };
-  console.log("Contact");
-  let content = document.querySelector(".content");
-  content.innerHTML =
-    `<div>
-    <p id="welcometext"> Üzenjen nekünk!</p>
-    <form action="/action_page.php" method="get">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-</form>
-      <button onClick=${clickContact}>Üzenet küldése</button>
-    </div>`
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(contactInfo);
+    setContactInfo({ lastname: "", firstname: "", subject: "", email: "", message: "" });
+  };
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit} onChange={handleChange}>
+        <div>
+          <h3>Contact Form</h3>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="lastname"
+            placeholder="Vezetéknév"
+            value={contactInfo.lastname}
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="firstname"
+            placeholder="Keresztnév"
+            value={contactInfo.firstname}
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="subject"
+            placeholder="Tárgy"
+            value={contactInfo.subject}
+          />
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={contactInfo.email}
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="message"
+            placeholder="Üzenet"
+            value={contactInfo.message}
+          />
+        </div>
+        <div>
+          <button>Submit Contact</button>
+        </div>
+      </form>
+    </div>)
 }

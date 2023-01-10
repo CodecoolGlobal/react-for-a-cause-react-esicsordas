@@ -17,8 +17,8 @@ export default function Header() {
             <div className="navbar">
                 <MyButton text={button1}/>
                 <MyButton text={button2}/>
-                <MyButton text={button3}/>
             </div>
+
         </div>
     )
 }
