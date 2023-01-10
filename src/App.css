@@ -10,7 +10,6 @@ body {
 }
 
 .content {
-  
   font-family: 'Gideon Roman', cursive;
 }
 
@@ -19,6 +18,12 @@ body {
 }
 
 .content h2 {
+  backdrop-filter: blur(5px);
+}
+
+.content h1 {
+  text-align: center;
+  margin-top: 280px;
   backdrop-filter: blur(5px);
 }
 
