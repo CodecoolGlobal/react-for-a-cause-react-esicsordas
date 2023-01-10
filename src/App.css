@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
 body {
   background-image: url('./backgroundimage.jpg');
   background-repeat: no-repeat;
@@ -6,6 +8,11 @@ body {
   background-position: center;
   background-size: cover;
   color: #F1F2F3;
+}
+
+.content {
+  backdrop-filter: blur(5px);
+  font-family: 'Gideon Roman', cursive;
 }
 
 button {
@@ -23,7 +30,6 @@ button:hover{
   opacity: 0.7 ;
   
 }
-/*CSS for Footer*/
 
 .footer {
   min-height: 50px;
@@ -38,62 +44,10 @@ button:hover{
   visibility: hidden;
 }
 
-/*CSS for Header*/
-
 .header {
   min-height: 50px;
   background-color: #283618;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-
-@media (min-width: 450px) {
-  .logo {
-    margin-left: 20px;
-  }
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-}
-
-.navbar a {
-  text-decoration: none;
-  font-family: "Yeseva One";
-  font-size: 19px;
-  padding: 10px 15px;
-  font-weight: 500;
-  color: #F1F2F3;
-}
-
-.navbar a:hover {
-  color: #09d3ac;
-}
-
-/*CSS for IntroductionCard*/
-
-.introduction {
-  margin: 20px;
-}
-
-@media (min-width: 450px) {
-  .introduction {
-    margin: 100px;
-  }
-}
-
-.introduction__text {
-  background-color: #18191a;
-  border-radius: 10px;
-  min-height: 500px;
-}
-
-.introduction p{
-  padding: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
 }
