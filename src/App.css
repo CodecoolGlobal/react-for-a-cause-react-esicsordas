@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
 body {
-  background-color: #606C38;
+  background-image: url('./backgroundimage.jpg');
+  background-repeat: no-repeat;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
   color: #F1F2F3;
 }
 
