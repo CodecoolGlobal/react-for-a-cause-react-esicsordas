@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Form from './Form'
+import MyButton from './Button';
 
-export default function Contact() {
+export default function Contact(props) {
 
   const [contactInfo, setContactInfo] = useState({
     lastname: "",
@@ -47,7 +48,7 @@ export default function Contact() {
           <Form type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
         </div>
         <div>
-          <button>Submit Contact</button>
+          <MyButton onClickButton = {() => {props.onActivate("Elküldés")}} text={"Elküldés"}/>
         </div>
       </form>
     </div>)
