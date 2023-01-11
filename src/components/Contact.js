@@ -13,11 +13,12 @@ export default function Contact(props) {
     message: ""
   });
 
-  const handleChange = (event) => {
-    setContactInfo({ ...contactInfo, [event.target.name]: event.target.value });
-  };
+  // const handleChange = (event) => {
+  //   setContactInfo({ ...contactInfo, [event.target.name]: event.target.value });
+  // };
 
   const handleSubmit = (event) => {
+    props.onSubmit();
     event.preventDefault();
     console.log(contactInfo);
     setContactInfo({ lastname: "", firstname: "", subject: "", email: "", message: "" });
@@ -25,7 +26,7 @@ export default function Contact(props) {
 
   return (
     <div className = "Form" >
-      <form onSubmit={handleSubmit} onChange={handleChange}>
+      <form onSubmit={handleSubmit} onChange={setContactInfo}>
         <div>
           <h3>Lépjen kapcsolatba Velünk!</h3>
         </div>
@@ -48,7 +49,7 @@ export default function Contact(props) {
           <Textarea type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
         </div> */}
         <div>
-          <button type = "submit" >Elküldés</button>
+          <button type = "submit" value="Submit" >Submit</button>
           {/* <MyButton type = {"submit"} onClickButton = {() => {props.onActivate("Elküldés")}} text={"Elküldés"}/> */}
         </div>
       </form>

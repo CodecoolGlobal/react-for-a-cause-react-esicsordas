@@ -17,9 +17,9 @@ function App() {
         {page === 'Home' || page === '' ? <Home/> : null}
         {page === 'About' ? <About/> : null}
       </div>
-      <div className='contentholder'>
-        {page === 'Contact' ? <Contact/> : null}
-        {page === 'Elküldés' ? <SubmitMessage/> : null}
+      <div className='contentholder' /*writeOut = {(page) => setPage(page)}*/>
+        {page === 'Contact' ? <Contact onSubmit = {() => setPage("SubmitMessage")}/> : null}
+        {page === 'SubmitMessage' ? <SubmitMessage/> : null}
         </div>
     </div>
   );
