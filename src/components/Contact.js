@@ -18,7 +18,10 @@ export default function Contact(props) {
   // };
 
   const handleSubmit = (event) => {
-    props.onSubmit();
+    setTimeout(() => {
+      props.onSubmit();
+    }, 2000)
+      
     event.preventDefault();
     console.log(contactInfo);
     setContactInfo({ lastname: "", firstname: "", subject: "", email: "", message: "" });
