@@ -1,10 +1,11 @@
 import { useState } from "react";
+import Form from './Form'
 
 export default function Contact() {
 
   const [contactInfo, setContactInfo] = useState({
-    lastname: "", 
-    firstname: "", 
+    lastname: "",
+    firstname: "",
     subject: "",
     email: "",
     message: ""
@@ -19,7 +20,6 @@ export default function Contact() {
   }
 
   const handleSubmit = (event) => {
-   
     event.preventDefault();
     console.log(contactInfo);
     setContactInfo({ lastname: "", firstname: "", subject: "", email: "", message: "" });
@@ -32,44 +32,19 @@ export default function Contact() {
           <h3>Contact Form</h3>
         </div>
         <div>
-          <input
-            type="text"
-            name="lastname"
-            placeholder="Vezetéknév"
-            value={contactInfo.lastname}
-          />
+          <Form type={"text"} name = {"lastname"} subtitle = {"Vezetéknév"} value={contactInfo.lastname}></Form>
         </div>
         <div>
-          <input
-            type="text"
-            name="firstname"
-            placeholder="Keresztnév"
-            value={contactInfo.firstname}
-          />
+          <Form type={"text"} name={"firstname"} subtitle={"Keresztnév"} value={contactInfo.firstname} />
         </div>
         <div>
-          <input
-            type="text"
-            name="subject"
-            placeholder="Tárgy"
-            value={contactInfo.subject}
-          />
+          <Form type={"text"} name={"subject"} subtitle={"Tárgy"} value={contactInfo.subject} />
         </div>
         <div>
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            value={contactInfo.email}
-          />
+          <Form type={"email"} name={"email"} subtitle={"E-mail"} value={contactInfo.email} />
         </div>
         <div>
-          <input
-            type="text"
-            name="message"
-            placeholder="Üzenet"
-            value={contactInfo.message}
-          />
+          <Form type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
         </div>
         <div>
           <button>Submit Contact</button>
