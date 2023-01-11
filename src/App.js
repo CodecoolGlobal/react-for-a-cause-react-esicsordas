@@ -16,9 +16,11 @@ function App() {
       <div className='content'>
         {page === 'Home' || page === '' ? <Home/> : null}
         {page === 'About' ? <About/> : null}
-        {page === 'Contact' ? <Contact onActivate = {(page) => setPage(page)} /> : null}
-        {page === 'Elküldés' ? <SubmitMessage/> : null}
       </div>
+      <div className='contentholder'>
+        {page === 'Contact' ? <Contact/> : null}
+        {page === 'Elküldés' ? <SubmitMessage/> : null}
+        </div>
     </div>
   );
 }

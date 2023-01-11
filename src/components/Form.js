@@ -1,6 +1,6 @@
 export default function Form (props) {
  return (
-    <div>
+    <div className = {props.name}>
     <input
       type = {props.type}
       name = {props.name}

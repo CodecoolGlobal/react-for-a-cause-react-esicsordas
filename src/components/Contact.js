@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Form from './Form'
-import MyButton from './Button';
+//import Textarea from './Textarea';
+
 
 export default function Contact(props) {
 
@@ -23,7 +24,7 @@ export default function Contact(props) {
   };
 
   return (
-    <div className = "Form">
+    <div className = "Form" >
       <form onSubmit={handleSubmit} onChange={handleChange}>
         <div>
           <h3>Lépjen kapcsolatba Velünk!</h3>
@@ -43,8 +44,12 @@ export default function Contact(props) {
         <div>
           <Form type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
         </div>
+        {/* <div>
+          <Textarea type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
+        </div> */}
         <div>
-          <MyButton onClickButton = {() => {props.onActivate("Elküldés")}} text={"Elküldés"}/>
+          <button type = "submit" >Elküldés</button>
+          {/* <MyButton type = {"submit"} onClickButton = {() => {props.onActivate("Elküldés")}} text={"Elküldés"}/> */}
         </div>
       </form>
     </div>)
