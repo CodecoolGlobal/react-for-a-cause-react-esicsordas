@@ -16,10 +16,6 @@ export default function Contact(props) {
     setContactInfo({ ...contactInfo, [event.target.name]: event.target.value });
   };
 
-  const handleClickEvent = () => {
-    console.log("valami történik itt")
-  }
-
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(contactInfo);
@@ -27,10 +23,10 @@ export default function Contact(props) {
   };
 
   return (
-    <div>
+    <div className = "Form">
       <form onSubmit={handleSubmit} onChange={handleChange}>
         <div>
-          <h3>Contact Form</h3>
+          <h3>Lépjen kapcsolatba Velünk!</h3>
         </div>
         <div>
           <Form type={"text"} name = {"lastname"} subtitle = {"Vezetéknév"} value={contactInfo.lastname}></Form>

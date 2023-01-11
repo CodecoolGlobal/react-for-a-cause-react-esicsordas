@@ -2,7 +2,7 @@
 import MyButton from './Button';
 import logo from './logo.png'
 
-export default function Header(props) {
+export default function Header({onActivate}) {
 
     const button1 = ["Rólunk", "About"];
     const button2 = ["Főoldal", "Home"];
@@ -14,9 +14,9 @@ export default function Header(props) {
                 <img src={logo} alt='img'/>
             </div>
             <div className="navbar">
-                <MyButton onClickButton = {() => {props.onActivate(button1[1])}} text={button1[0]}/>
-                <MyButton onClickButton = {() => {props.onActivate(button2[1])}} text={button2[0]}/>
-                <MyButton onClickButton = {() => {props.onActivate(button3[1])}} text={button3[0]}/>
+                <MyButton onClickButton = {() => {onActivate(button1[1])}} text={button1[0]}/>
+                <MyButton onClickButton = {() => {onActivate(button2[1])}} text={button2[0]}/>
+                <MyButton onClickButton = {() => {onActivate(button3[1])}} text={button3[0]}/>
             </div>
 
         </div>
