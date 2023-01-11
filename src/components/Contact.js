@@ -14,7 +14,12 @@ export default function Contact() {
     setContactInfo({ ...contactInfo, [event.target.name]: event.target.value });
   };
 
+  const handleClickEvent = () => {
+    console.log("valami történik itt")
+  }
+
   const handleSubmit = (event) => {
+   
     event.preventDefault();
     console.log(contactInfo);
     setContactInfo({ lastname: "", firstname: "", subject: "", email: "", message: "" });
