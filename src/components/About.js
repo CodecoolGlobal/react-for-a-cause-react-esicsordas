@@ -3,8 +3,7 @@ import madar from './Pictures_About/madar.jpeg'
 
 export default function About () {
   console.log("About");
-  let content = document.querySelector(".content");
-  content.innerHTML = `<div className = "about-div">
+  return (<div className = "about-div">
       <h3 className = "about-h3">A Börzsöny Alapítványt 2003 évben hozták létre az MME Börzsönyi helyi csoportjának tagjai, a Börzsöny hegység és környéke természeti értékeinek védelmére, bemutatására és gyerekek táboroztatására.</h3>
       <h2 className = "about-h2">Legfontosabb céljaink:</h2>
         <div className = "about-div">
@@ -33,7 +32,7 @@ export default function About () {
         </p>
         </div>
         <h3 className = "about-h3">Ismeretterjesztő előadások:</h3>
-        <img className='about-img' src = ${dunakanyar} alt="dunakanyar"></img>
+        <img className='about-img' src = {dunakanyar} alt="dunakanyar"></img>
 
         <div className = "about-div">
         <p>
@@ -61,7 +60,7 @@ export default function About () {
         </p>
         </div>
         <h3 className = "about-h3">Védett és fokozottan védett fajok felmérése, védelme:</h3>
-        <img className='about-img' src = ${madar} alt="madar"></img>
+        <img className='about-img' src = {madar} alt="madar"></img>
         <div className = "about-div">
         <p>
         Kameracsapdával monitorozzuk a Börzsöny rejtett életet élő vadfajait, elsősorban a hiúz és vadmacska kutatáshoz járulunk hozzá. Rendszeresen ellenőrizzük a börzsönyi erdőkben élő ritka madárfajokat (feketególya, fehérhátú harkály, vándorsólyom, uhu, macskabagoly stb.) Támogatjuk a MME Börzsönyi csoport madárodú telepítési programját.
@@ -77,5 +76,6 @@ export default function About () {
         A Börzsöny területén GPS alkalmazásával felvételeztük a forrásokat, mértük vízminőségi és fizikai tulajdonságaikat, és adatszolgáltatást végeztünk a Nemzeti forráskataszter részére.
         </p>
         </div>
-    </div>`
+    </div>
+    )
 }
