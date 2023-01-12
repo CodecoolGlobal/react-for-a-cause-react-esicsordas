@@ -17,7 +17,7 @@ export default function Donate(props) {
   };
 
   const handleSubmit = (event) => {
-    // props.onSubmit();
+    props.onSubmit();
     event.preventDefault();
     console.log(contactInfo);
     setContactInfo({
