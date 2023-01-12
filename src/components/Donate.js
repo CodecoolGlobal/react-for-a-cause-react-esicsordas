@@ -9,7 +9,7 @@ export default function Donate(props) {
     subject: "Donation",
     cardnumber: "",
     expirationdate: "",
-    cvccode: ""message
+    cvccode: ""
   });
 
   const handleChange = (event) => {
@@ -17,7 +17,7 @@ export default function Donate(props) {
   };
 
   const handleSubmit = (event) => {
-    props.onSubmit();
+    // props.onSubmit();
     event.preventDefault();
     console.log(contactInfo);
     setContactInfo({
@@ -26,7 +26,7 @@ export default function Donate(props) {
         subject: "Donation",
         cardnumber: "",
         expirationdate: "" ,
-        message: ""
+        cvccode: ""
       });
   };
 
@@ -34,7 +34,7 @@ export default function Donate(props) {
     <div className = "Form" >
       <form onSubmit={handleSubmit} onChange={handleChange}>
         <div>
-          <h3>Lépjen kapcsolatba Velünk!</h3>
+          <h3>Kérjük adja meg bankkártya adatait!</h3>
         </div>
         <div>
           <Form type={"text"} name = {"lastname"} subtitle = {"Vezetéknév"} value={contactInfo.lastname}></Form>
@@ -46,14 +46,16 @@ export default function Donate(props) {
           <Form type={"text"} name={"subject"} subtitle={"Tárgy"} value={contactInfo.subject} />
         </div>
         <div>
-          <Form type={"email"} name={"email"} subtitle={"E-mail"} value={contactInfo.email} />
+          <Form type={"number"} name={"cardnumber"} subtitle={"Bankkártya száma"} value={contactInfo.cardnumber} />
         </div>
         <div>
-          <Form type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
+          <Form type={"date"} name={"expirationdate"} subtitle={"Lejárati dátum"} value={contactInfo.expirationdate} />
         </div>
-
         <div>
-          <button type = "submit" value="Submit" >Elküldés</button>
+          <Form type={"number"} name={"cvccode"} subtitle={"CVC kód"} value={contactInfo.cvccode} />
+        </div>
+        <div>
+          <button type = "submit" value="Submit" >Adakozás</button>
         </div>
       </form>
     </div>)
