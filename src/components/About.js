@@ -26,70 +26,76 @@ export default function About() {
         </div>
       </div>
       <div className="image" id="big-img-1-div">
-        <img className='about-img'  id="big-img-1" src="https://www.borzsony.org/media/user_photos/1708_5_27_354232.jpg" alt="borzsonytabor"></img>
+        <img className='about-img' id="big-img-1" src="https://www.borzsony.org/media/user_photos/1708_5_27_354232.jpg" alt="borzsonytabor"></img>
       </div>
     </div>
 
     <h1 className="about-h1">Programjaink:</h1>
 
-    
-    <div className='about-card'>
-      <h3 className="about-h3">Ismeretterjesztő előadások:</h3>
-      <div className='image'>
-        <img className='about-img' src={dunakanyar} alt="dunakanyar"></img>
+    <div className='about-first-section'>
+      <div className='about-card'>
+        <h3 className="about-h3">Ismeretterjesztő előadások:</h3>
+        <div className='image'>
+          <img className='about-img' src={dunakanyar} alt="dunakanyar"></img>
+        </div>
+        <div className="about-div">
+          <p>
+            Aktivistáink felkérésre diaképes, és projektoros előadásokat tartanak iskolákban, nyugdíjasklubokban, teleházban. A Börzsöny természeti értékeinek bemutatása mellett, a környezettudatos szemlélet fontosságára és a környezet sérülékenységére hívjuk fel a figyelmet, a környezetterhelő technológiák és helytelen vásárlási szokások bemutatásával. Iskolás csoportoknak "odúkopácsoló" gyakorlati órát tartunk, az elkészített odúkat elvihetik a gyerekek.
+          </p>
+        </div>
       </div>
-      <div className="about-div">
-        <p>
-          Aktivistáink felkérésre diaképes, és projektoros előadásokat tartanak iskolákban, nyugdíjasklubokban, teleházban. A Börzsöny természeti értékeinek bemutatása mellett, a környezettudatos szemlélet fontosságára és a környezet sérülékenységére hívjuk fel a figyelmet, a környezetterhelő technológiák és helytelen vásárlási szokások bemutatásával. Iskolás csoportoknak "odúkopácsoló" gyakorlati órát tartunk, az elkészített odúkat elvihetik a gyerekek.
-        </p>
+      <div className='about-card' id='trash-picking'>
+        <h3 className="about-h3">Szemétszedő akciók:</h3>
+        <div className="about-div">
+          <p>
+            A Föld Napja alkalmából erdőtakarítási napot rendezünk a Börzsöny valamely terhelt kiránduló területén. A Takarítási Világnap alkalmából Dunakeszin rendezünk hasonló akciót. Segítséget nyújtunk más szervezetek által rendezett környezettakarítási akciókhoz (jármű, védőeszköz, zsák biztosításával).
+          </p>
+        </div>
       </div>
     </div>
     <div className='about-first-section'>
-    <div className='about-card' id='summer-camp'>
-      <h3 className="about-h3">Nyári természetvédelmi táborok:</h3>
-      <div className="about-div">
-        <p>
-          A több mint 30 éve magas színvonalon rendezett Börzsönyi Természetvédelmi Táborok további működését biztosítjuk, stabil anyagi és infrastruktúrális háttér biztosításával. A táborban, két turnusban kb. 100 iskolás vesz részt. A 12 napos turnusok minden napján, 10 fős kiscsoportokban tematikus foglalkozásokon mutatjuk be a természet titkait, és az erdőben viselkedés szabályait.
-        </p>
-      
-    </div>
-    </div>
-    <div className='image' id="big-img-2-div">
+      <div className='about-card' id='summer-camp'>
+        <h3 className="about-h3">Nyári természetvédelmi táborok:</h3>
+        <div className="about-div">
+          <p>
+            A több mint 30 éve magas színvonalon rendezett Börzsönyi Természetvédelmi Táborok további működését biztosítjuk, stabil anyagi és infrastruktúrális háttér biztosításával. A táborban, két turnusban kb. 100 iskolás vesz részt. A 12 napos turnusok minden napján, 10 fős kiscsoportokban tematikus foglalkozásokon mutatjuk be a természet titkait, és az erdőben viselkedés szabályait.
+          </p>
+        </div>
+      </div>
+      <div className='image' id="big-img-2-div">
         <img className='about-img' id="big-img-2" src="https://www.borzsony.org/media/user_photos/1708_5_27_409683.jpg" alt="borzsonytabor"></img>
       </div>
-      </div>
-    <div className='about-card'>
-      <h3 className="about-h3">Vadonélő védett állatok mentése:</h3>
-      <div className="about-div">
-        <p>
-          Az emberkézre került, sérült vadonélő állatok – elsősorban nagytestű madarak – mentését és gyógykezelését végezzük az MME Börzsönyi helyi csoportjával együttműködve, az erre a célra kialakított telephelyeinken. A gyógyult állatokat visszajuttatjuk a természetbe, vagy gondoskodunk elhelyezésükről. Kapcsolatban állunk más mentőközpontokkal, állatkerttel, és a Nemzeti Parkokkal.
-        </p>
-      </div>
-      <div className="about-div">
-        <p>
-          Felhívjuk azonban a figyelmet, hogy a nem védett madarakat (galambok, szarka, szajkó, dolmányos varjú, tőkés réce, stb.) sajnos nem áll módunkban fogadni !
-        </p>
-      </div>
-      <h3 className="about-h3">Védett és fokozottan védett fajok felmérése, védelme:</h3>
-      <div className='image'>
-        <img className='about-img' src={madar} alt="madar"></img>
-      </div>
-      <div className="about-div">
-        <p>
-          Kameracsapdával monitorozzuk a Börzsöny rejtett életet élő vadfajait, elsősorban a hiúz és vadmacska kutatáshoz járulunk hozzá. Rendszeresen ellenőrizzük a börzsönyi erdőkben élő ritka madárfajokat (feketególya, fehérhátú harkály, vándorsólyom, uhu, macskabagoly stb.) Támogatjuk a MME Börzsönyi csoport madárodú telepítési programját.
-        </p>
-      </div>
     </div>
-    <div className='about-card'>
-      <h3 className="about-h3">Befejezett programjaink:</h3>
-      <div className="about-div">
-        <p>
-          A börzsönyi denevér populáció életfeltételeit javítottuk a Szokolyai vasbánya denevérbarát lezárásával és speciális denevérodúk telepítésével.
-          A fokozottan védett Magyarföldi husáng (Ferula sadleriana) vadak rágása elleni védelmét kerítés létesítésével biztosítottuk.
-          Ismeretterjesztő táblát állítottunk fel, melyen bemutatjuk a Börzsöny védendő természeti értékeit.
-          Kistó programunk során a Börzsönyi kétéltű állomány szaporodóhelyeinek felmérését, és néhány beiszapolódott víztest revitalizálását végeztük el.
-          A Börzsöny területén GPS alkalmazásával felvételeztük a forrásokat, mértük vízminőségi és fizikai tulajdonságaikat, és adatszolgáltatást végeztünk a Nemzeti forráskataszter részére.
-        </p>
+    <div className='about-first-section'>
+      <div className='about-card' id='endangered-animal-section'>
+        <h3 className="about-h3">Vadonélő védett állatok mentése:</h3>
+        <div className="about-div">
+          <p>
+            Az emberkézre került, sérült vadonélő állatok – elsősorban nagytestű madarak – mentését és gyógykezelését végezzük az MME Börzsönyi helyi csoportjával együttműködve, az erre a célra kialakított telephelyeinken. A gyógyult állatokat visszajuttatjuk a természetbe, vagy gondoskodunk elhelyezésükről. Kapcsolatban állunk más mentőközpontokkal, állatkerttel, és a Nemzeti Parkokkal.
+          </p>
+        </div>
+        <div className="about-div">
+          <p>
+            Felhívjuk azonban a figyelmet, hogy a nem védett madarakat (galambok, szarka, szajkó, dolmányos varjú, tőkés réce, stb.) sajnos nem áll módunkban fogadni !
+          </p>
+        </div>
+        <h3 className="about-h3">Védett és fokozottan védett fajok felmérése, védelme:</h3>
+        <div className='image'>
+          <img className='about-img' src={madar} alt="madar"></img>
+        </div>
+        <div className="about-div">
+          <p>
+            Kameracsapdával monitorozzuk a Börzsöny rejtett életet élő vadfajait, elsősorban a hiúz és vadmacska kutatáshoz járulunk hozzá. Rendszeresen ellenőrizzük a börzsönyi erdőkben élő ritka madárfajokat (feketególya, fehérhátú harkály, vándorsólyom, uhu, macskabagoly stb.) Támogatjuk a MME Börzsönyi csoport madárodú telepítési programját.
+          </p>
+        </div>
+      </div>
+      <div className='about-card' id='finished-programs'>
+        <h3 className="about-h3">Befejezett programjaink:</h3>
+        <div className="about-div">
+          <p>
+            A börzsönyi denevér populáció életfeltételeit javítottuk a Szokolyai vasbánya denevérbarát lezárásával és speciális denevérodúk telepítésével. A fokozottan védett Magyarföldi husáng (Ferula sadleriana) vadak rágása elleni védelmét kerítés létesítésével biztosítottuk. Ismeretterjesztő táblát állítottunk fel, melyen bemutatjuk a Börzsöny védendő természeti értékeit. Kistó programunk során a Börzsönyi kétéltű állomány szaporodóhelyeinek felmérését, és néhány beiszapolódott víztest revitalizálását végeztük el. A Börzsöny területén GPS alkalmazásával felvételeztük a forrásokat, mértük vízminőségi és fizikai tulajdonságaikat, és adatszolgáltatást végeztünk a Nemzeti forráskataszter részére.
+          </p>
+        </div>
       </div>
     </div>
   </div>
