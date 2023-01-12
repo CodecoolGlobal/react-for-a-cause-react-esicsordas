@@ -18,7 +18,7 @@ export default function Contact(props) {
   const handleSubmit = (event) => {
     setTimeout(() => {
       props.onSubmit();
-    }, 2000)
+    }, 500)
       
     event.preventDefault();
     console.log(contactInfo);
@@ -48,7 +48,7 @@ export default function Contact(props) {
         </div>
 
         <div>
-          <button type = "submit" value="Submit" >Submit</button>
+          <button type = "submit" value="Submit" >Elküldés</button>
         </div>
       </form>
     </div>)
