@@ -12,7 +12,7 @@ function App() {
   const [page, setPage] = useState("");
 
   const thankYouForContact = ["Köszönjük megkeresését!", "Kollégáink hamarosan felveszik Önnel a kapcsolatot.", "Legyen szép napja!"];
-  const thankYouForDonate = ["Köszönjük adományát és bankkártyaszámát!", "Hasznosan költjük majd el vagyonát.", "Legyen szép napja!"];
+  const thankYouForDonate = ["Köszönjük adományát és bankkártyaszámát!", "Hasznosan költjük majd el vagyonát.", "Legyen szép napunk!"];
   
   return (
     <div className="App">
@@ -26,7 +26,6 @@ function App() {
         </div>
         {page === 'SubmitMessage' ? <SubmitMessage content1={thankYouForContact[0]} content2={thankYouForContact[1]} content3= {thankYouForContact[2]}/> : null}
         {page === 'SubmitDonate' ? <SubmitMessage content1={thankYouForDonate[0]} content2={thankYouForDonate[1]} content3= {thankYouForDonate[2]}/> : null}
-      
       </div>
     </div>
   );
