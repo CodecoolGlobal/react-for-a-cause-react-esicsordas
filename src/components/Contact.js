@@ -16,6 +16,7 @@ export default function Contact(props) {
   };
 
   const handleSubmit = (event) => {
+    loadingGif();
     setTimeout(() => {
       props.onSubmit();
     }, 2000)
@@ -24,6 +25,10 @@ export default function Contact(props) {
     console.log(contactInfo);
     setContactInfo({ lastname: "", firstname: "", subject: "", email: "", message: "" });
   };
+
+  const loadingGif = () => {
+    
+  }
 
   return (
     <div className = "Form" >
