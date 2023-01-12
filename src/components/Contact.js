@@ -11,6 +11,10 @@ export default function Contact(props) {
     message: ""
   });
 
+  const handleChange = (event) => {
+    setContactInfo({ ...contactInfo, [event.target.name]: event.target.value });
+  };
+
   const handleSubmit = (event) => {
     setTimeout(() => {
       props.onSubmit();
@@ -23,7 +27,7 @@ export default function Contact(props) {
 
   return (
     <div className = "Form" >
-      <form onSubmit={handleSubmit} onChange={setContactInfo}>
+      <form onSubmit={handleSubmit} onChange={handleChange}>
         <div>
           <h3>Lépjen kapcsolatba Velünk!</h3>
         </div>
