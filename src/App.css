@@ -9,7 +9,49 @@ body {
   height: 650px;
 }
 
-#about-h1 {
+.about-first-section {
+  display: flex;
+}
+
+#big-img-1-div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#big-img-1 {
+  width: 100%;
+  margin: 4%;
+}
+
+#big-img-2-div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#big-img-2 {
+  width: 100%;
+  margin: 4%;
+}
+
+
+
+.about-card {
+  backdrop-filter: blur(10px);
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  border-width: 2px;
+  max-width: 45%;
+  border-color: white;
+  border-style: solid;
+  border-radius: 1em;
+  font-family: 'Gideon Roman', cursive;
+}
+
+.about-h1 {
   text-align: center;
   backdrop-filter: blur(5px);
   width: fit-content;
@@ -29,6 +71,10 @@ body {
 
 .content .image {
   text-align: center;
+}
+
+.about-image {
+  width: ;
 }
 
 .content h3 {
