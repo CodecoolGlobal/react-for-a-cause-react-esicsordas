@@ -5,7 +5,6 @@ import About from './components/About'
 import Contact from './components/Contact'
 import SubmitMessage from "./components/SubmitMessage";
 import Donate from './components/Donate'
-//import DonateMessage from "./components/DonateMessage";
 
 import { useState } from 'react';
 

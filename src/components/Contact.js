@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Form from './Form'
+import Textarea from './Textarea'
 
 export default function Contact(props) {
 
@@ -41,7 +42,7 @@ export default function Contact(props) {
           <Form type={"email"} name={"email"} subtitle={"E-mail"} value={contactInfo.email} />
         </div>
         <div>
-          <Form type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
+          <Textarea type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message}/>
         </div>
         <div>
           <button type="submit" value="Submit" >Elküldés</button>
