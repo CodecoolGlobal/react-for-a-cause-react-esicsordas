@@ -13,6 +13,12 @@ body {
   display: flex;
 }
 
+#summer-camp {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
 #big-img-1-div {
   display: flex;
   align-items: center;
@@ -39,6 +45,7 @@ body {
 
 .about-card {
   backdrop-filter: blur(10px);
+  margin-top: 2%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   padding-left: 7%;

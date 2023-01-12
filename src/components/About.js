@@ -32,14 +32,7 @@ export default function About() {
 
     <h1 className="about-h1">Programjaink:</h1>
 
-    <div className='about-card'>
-      <h3 className="about-h3">Szemétszedő akciók:</h3>
-      <div className="about-div">
-        <p>
-          A Föld Napja alkalmából erdőtakarítási napot rendezünk a Börzsöny valamely terhelt kiránduló területén. A Takarítási Világnap alkalmából Dunakeszin rendezünk hasonló akciót. Segítséget nyújtunk más szervezetek által rendezett környezettakarítási akciókhoz (jármű, védőeszköz, zsák biztosításával).
-        </p>
-      </div>
-    </div>
+    
     <div className='about-card'>
       <h3 className="about-h3">Ismeretterjesztő előadások:</h3>
       <div className='image'>
@@ -52,7 +45,7 @@ export default function About() {
       </div>
     </div>
     <div className='about-first-section'>
-    <div className='about-card'>
+    <div className='about-card' id='summer-camp'>
       <h3 className="about-h3">Nyári természetvédelmi táborok:</h3>
       <div className="about-div">
         <p>
