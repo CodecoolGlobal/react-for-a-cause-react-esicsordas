@@ -11,7 +11,7 @@ export default function Header({onActivate}) {
     return (
         <div className="header">
             <div className="logo">
-                <img src={logo} alt='img'/>
+                <img id='headerimage' src={logo} alt='img'/>
             </div>
             <div className="navbar">
                 <MyButton Type = {"button"}  onClickButton = {() => {onActivate(button1[1])}} text={button1[0]}/>
