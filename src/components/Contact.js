@@ -16,23 +16,20 @@ export default function Contact(props) {
   };
 
   const handleSubmit = (event) => {
-    setTimeout(() => {
-      props.onSubmit();
-    }, 500)
-      
+    props.onSubmit();
     event.preventDefault();
     console.log(contactInfo);
     setContactInfo({ lastname: "", firstname: "", subject: "", email: "", message: "" });
   };
 
   return (
-    <div className = "Form" >
+    <div className="Form" >
       <form onSubmit={handleSubmit} onChange={handleChange}>
         <div>
           <h3>Lépjen kapcsolatba Velünk!</h3>
         </div>
         <div>
-          <Form type={"text"} name = {"lastname"} subtitle = {"Vezetéknév"} value={contactInfo.lastname}></Form>
+          <Form type={"text"} name={"lastname"} subtitle={"Vezetéknév"} value={contactInfo.lastname}></Form>
         </div>
         <div>
           <Form type={"text"} name={"firstname"} subtitle={"Keresztnév"} value={contactInfo.firstname} />
@@ -46,9 +43,8 @@ export default function Contact(props) {
         <div>
           <Form type={"text"} name={"message"} subtitle={"Üzenet"} value={contactInfo.message} />
         </div>
-
         <div>
-          <button type = "submit" value="Submit" >Elküldés</button>
+          <button type="submit" value="Submit" >Elküldés</button>
         </div>
       </form>
     </div>)
