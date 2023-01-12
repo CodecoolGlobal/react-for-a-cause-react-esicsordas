@@ -6,7 +6,7 @@ export default function Donate(props) {
   const [contactInfo, setContactInfo] = useState({
     lastname: "",
     firstname: "",
-    subject: "Donation",
+    subject: "Adomány",
     cardnumber: "",
     expirationdate: "",
     cvccode: ""
