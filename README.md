@@ -7,7 +7,7 @@ This project is about a non-government organization. We have chosen Börzsöny F
 ### Prerequisites
 To run this project, you need to have the following:
 
-Node Package Manager (npm) – if you don’t have it, run the following command in your terminal: _ npm i _
+Node Package Manager (npm) – if you don’t have it, run the following command in your terminal: _npm i_
 
 optional – Visual Studio Code  - you can open the project in this, but not mandatory to have it
 
@@ -15,10 +15,10 @@ optional – Visual Studio Code  - you can open the project in this, but not man
 Follow the steps below to use this project:
 
 Clone the repository to your local machine.
-In your terminal, move into the project’s folder  OR open the project in VsCode
-Run the following command in the terminal : npm start
+In your terminal, move into the project’s folder  _OR_ open the project in VsCode
+Run the following command in the terminal : _npm start_
 This will start the project, and you can reach in your browser, ont he following URL: 
-_ http://localhost:3000/ _
+_http://localhost:3000/_
 Here you can try the features of the project.
 
 ### Contributing
