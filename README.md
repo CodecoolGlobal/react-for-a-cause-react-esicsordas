@@ -18,7 +18,7 @@ Clone the repository to your local machine.
 In your terminal, move into the project’s folder  OR open the project in VsCode
 Run the following command in the terminal : npm start
 This will start the project, and you can reach in your browser, ont he following URL: 
-* http://localhost:3000/*
+* * http://localhost:3000/ * *
 Here you can try the features of the project.
 
 ### Contributing
