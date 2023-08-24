@@ -11,13 +11,13 @@
 <br>
 <br>
 
-<h3 align="center">React for a cause</h3>
+<h3 align="center"> :mountain:  React for a cause  :mountain: </h3>
 <br>
   <p align="center">
     Redesign the webpage of a non-governmental organization
     <br>
     <br>
-    <a href="https://github.com/CodecoolGlobal/react-for-a-cause-react-esicsordas"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/CodecoolGlobal/react-for-a-cause-react-esicsordas"><strong>Explore the docs :arrow_right: </strong></a>
     <br />
     <br />
     <a href="https://docs.google.com/presentation/d/1-X3jND0dkqzAmYY4l4sFwnS58ejZHWccvsqwXEwFbs0/edit?usp=sharing">View Presentation of the project</a>
@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 <div id="about-the-project"></div>
 
-## About The Project
+## About The Project :page_with_curl:	
 <br />
 This project is centered around Börzsöny Foundation, a non-governmental organization. It marks our first foray into React-based development, resulting in the creation of a visually appealing single-page website that facilitates easy contact with the organization. Visitors to the site will be able to make donations or send messages to support the foundation's mission.
 <br />
@@ -96,19 +96,19 @@ optional – Visual Studio Code  - you can open the project in this, but not man
 
 ### Installation
 
-1. Clone the repository to your local machine
+:one: Clone the repository to your local machine
    ```sh
    git clone https://github.com/CodecoolGlobal/react-for-a-cause-react-esicsordas.git
    ```
-3. Install NPM packages
+:two: Install NPM packages
    ```sh
    npm install
    ```
-4. Start the program
+:three: Start the program
    ```sh
    npm start
    ```
-5. The website runs in the browser, on the
+:four: The website runs in the browser, on the
    ```sh
    http://localhost:3000/
    ```
@@ -136,13 +136,13 @@ In this project, you can find information about the organization, send message o
 In this project, there were 3 junior developers from Codecool: Csordás Emese, Toma Tamás and Péterfi László.
 <br />
 <br />
-**Emese** worked mostly on the css, and the Contact component.
+:heavy_check_mark: **Emese** worked mostly on the css, and the Contact component.
 <br />
 <br />
-**Tamás** worked mostly on the Donate and About components.
+:heavy_check_mark: **Tamás** worked mostly on the Donate and About components.
 <br />
 <br />
-**László** worked mostly on the main page, and the conditional rendering.
+:heavy_check_mark: **László** worked mostly on the main page, and the conditional rendering.
 <br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -155,11 +155,11 @@ In this project, there were 3 junior developers from Codecool: Csordás Emese, T
 
 ## Contact
 
-**Emese** - cs.esi963@gmail.com
+:envelope: **Emese** - cs.esi963@gmail.com
 
-**Tamás** - tomatams@gmail.com
+:envelope: **Tamás** - tomatams@gmail.com
 
-**László** - peterfi.laci.0325@gmail.com
+:envelope: **László** - peterfi.laci.0325@gmail.com
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
