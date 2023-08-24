@@ -53,6 +53,7 @@
 
 <!-- ABOUT THE PROJECT -->
 <div id="about-the-project"></div>
+
 ## About The Project
 <br />
 This project is centered around Börzsöny Foundation, a non-governmental organization. It marks our first foray into React-based development, resulting in the creation of a visually appealing single-page website that facilitates easy contact with the organization. Visitors to the site will be able to make donations or send messages to support the foundation's mission.
@@ -60,6 +61,7 @@ This project is centered around Börzsöny Foundation, a non-governmental organi
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<div id="built-with"></div>
 
 ### Built With
 
@@ -73,8 +75,11 @@ This project is centered around Börzsöny Foundation, a non-governmental organi
 
 
 <!-- GETTING STARTED -->
+<div id="getting-started"></div>
+
 ## Getting Started
 
+<div id="prerequisites"></div>
 
 ### Prerequisites
 To run this project, you need to have the following:
@@ -86,6 +91,8 @@ Node Package Manager (npm) – if you don’t have it, run the following command
   ```
   
 optional – Visual Studio Code  - you can open the project in this, but not mandatory to have it
+
+<div id="installation"></div>
 
 ### Installation
 
@@ -111,6 +118,8 @@ optional – Visual Studio Code  - you can open the project in this, but not man
 
 
 <!-- USAGE EXAMPLES -->
+<div id="usage"></div>
+
 ## Usage
 
 In this project, you can find information about the organization, send message or donate.
@@ -120,6 +129,8 @@ In this project, you can find information about the organization, send message o
 
 
 <!-- CONTRIBUTING -->
+<div id="contributing"></div>
+
 ## Contributing
 
 In this project, there were 3 junior developers from Codecool: Csordás Emese, Toma Tamás and Péterfi László.
@@ -140,6 +151,8 @@ In this project, there were 3 junior developers from Codecool: Csordás Emese, T
 
 
 <!-- CONTACT -->
+<div id="contact"></div>
+
 ## Contact
 
 **Emese** - cs.esi963@gmail.com
