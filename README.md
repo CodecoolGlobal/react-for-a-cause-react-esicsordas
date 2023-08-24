@@ -122,7 +122,8 @@ optional – Visual Studio Code  - you can open the project in this, but not man
 
 ## Usage
 
-In this project, you can find information about the organization, send message or donate.
+In this project, you can find information about the organization, send message or donate. You can read about future programs and targets.
+You can see about archive programs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
