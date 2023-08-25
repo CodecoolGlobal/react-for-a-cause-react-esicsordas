@@ -4,9 +4,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Emese's LinkedIn][linkedin-shield]][LinkedIn - Emese]
-[![Tamás's LinkedIn][linkedin-shield]][LinkedIn - Tamás]
-[![László's LinkedIn][linkedin-shield]][LinkedIn - László]
 
 <br>
 <br>
@@ -156,11 +153,11 @@ In this project, there were 3 junior developers from Codecool: Csordás Emese, T
 
 ## Contact
 
-:envelope: **Emese** - cs.esi963@gmail.com
+:envelope: **Emese** - cs.esi963@gmail.com &nbsp;&nbsp;&nbsp;&nbsp; :point_right: &nbsp;&nbsp;&nbsp;&nbsp; [![Emese's LinkedIn][linkedin-shield]][LinkedIn - Emese]
 
-:envelope: **Tamás** - tomatams@gmail.com
+:envelope: **Tamás** - tomatams@gmail.com &nbsp;&nbsp;&nbsp;&nbsp; :point_right: &nbsp;&nbsp;&nbsp;&nbsp; [![Tamás's LinkedIn][linkedin-shield]][LinkedIn - Tamás]
 
-:envelope: **László** - peterfi.laci.0325@gmail.com
+:envelope: **László** - peterfi.laci.0325@gmail.com &nbsp;&nbsp;&nbsp;&nbsp; :point_right: &nbsp;&nbsp;&nbsp;&nbsp; [![László's LinkedIn][linkedin-shield]][LinkedIn - László]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
