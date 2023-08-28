@@ -54,6 +54,11 @@
 ## About The Project :page_with_curl:	
 <br />
 This project is centered around Börzsöny Foundation, a non-governmental organization. It marks our first foray into React-based development, resulting in the creation of a visually appealing single-page website that facilitates easy contact with the organization. Visitors to the site will be able to make donations or send messages to support the foundation's mission.
+
+<br />
+<br />
+We created the project a long time ago, and since then we have learned a lot of new technologies and systematization methodologies during our learning process. We are refactoring the code.
+
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
